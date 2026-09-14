@@ -4,6 +4,17 @@ An intelligent, production-ready AI customer support agent designed to classify 
 
 ---
 
+## 🖥️ Demo
+
+### Dashboard Interface Screenshot
+![Apple Support Agent Dashboard](results/interface_demo.png)
+
+- **Screenshot path**: [`results/interface_demo.png`](results/interface_demo.png)
+- **Live Demo (Local)**: [http://localhost:3000](http://localhost:3000)
+- **(Optional) Cloud Deployment**: Ready for 1-click deployment on [Vercel](https://vercel.com) or Render via `server.js` / `npm start`.
+
+---
+
 ## 📚 Dataset Citation
 
 This project utilizes real-world customer support patterns and subsamples derived from:
@@ -113,6 +124,7 @@ apple-support-agent/
 │── results/
 │   ├── metrics.json                  # Accuracy, macro F1, and class breakdown
 │   ├── confusion_matrix.png          # Visual heatmap of classification results
+│   ├── interface_demo.png            # Screenshot of dashboard
 │   ├── failure_analysis.md           # 3–5 misclassifications explained
 │   ├── misleading_number.md          # Headline metric + limitations analysis
 │   ├── decision_log.md               # 10 architecture & modeling choices documented
