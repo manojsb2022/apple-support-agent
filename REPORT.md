@@ -93,10 +93,19 @@
 ---
 
 ## 9. Demo & Web Interface
-- **Dashboard Screenshot**: [`results/interface_demo.png`](file:///C:/Users/MANOJ%20SB/.gemini/antigravity/scratch/apple-support-agent/results/interface_demo.png)
+
+### Live Dashboard Screenshot:
+![Apple Support Intelligent Agent Dashboard](results/interface_demo.png)
+
+- **Screenshot File**: [`results/interface_demo.png`](results/interface_demo.png)
 - **Live Cloud Demo (Vercel)**: **[https://apple-support-agent.vercel.app](https://apple-support-agent.vercel.app)**
 - **Local Dashboard**: Running on `http://localhost:3000` via `npm start`.
-- Features real-time tweet analysis, intent pill badges, escalation reason breakdowns, and interactive documentation tabs.
+- **Features Highlighted**:
+  - Live customer tweet input with preset testing buttons (*Battery Drain*, *Hacked / Urgent*, *Trade-In Query*, *AirPods Static*).
+  - Real-time classification badge (`battery_issue` / `AUTO-RESOLVE` or `ESCALATE`).
+  - Benchmark performance metrics displayed side-by-side (Accuracy: 77.50%, Macro Precision: 86.73%, Recall: 77.50%, F1: 78.70%, Escalation: 79.00%).
+  - Live 8x8 confusion matrix heatmap.
+  - Interactive tabs rendering `submission.txt`, `failure_analysis.md`, `misleading_number.md`, and `decision_log.md` directly in the browser.
 
 ---
 
