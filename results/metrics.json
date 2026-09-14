@@ -1,0 +1,153 @@
+{
+  "dataset_size": 200,
+  "intent_classification": {
+    "accuracy": 0.775,
+    "macro_precision": 0.8673,
+    "macro_recall": 0.775,
+    "macro_f1": 0.787,
+    "class_breakdown": {
+      "account_security": {
+        "precision": 0.7333,
+        "recall": 0.44,
+        "f1_score": 0.55,
+        "support": 25
+      },
+      "airpods_audio": {
+        "precision": 1,
+        "recall": 0.72,
+        "f1_score": 0.8372,
+        "support": 25
+      },
+      "battery_issue": {
+        "precision": 0.7813,
+        "recall": 1,
+        "f1_score": 0.8772,
+        "support": 25
+      },
+      "billing_subscription": {
+        "precision": 1,
+        "recall": 0.84,
+        "f1_score": 0.913,
+        "support": 25
+      },
+      "general_inquiry": {
+        "precision": 1,
+        "recall": 0.72,
+        "f1_score": 0.8372,
+        "support": 25
+      },
+      "hardware_defect": {
+        "precision": 0.4237,
+        "recall": 1,
+        "f1_score": 0.5952,
+        "support": 25
+      },
+      "icloud_sync": {
+        "precision": 1,
+        "recall": 0.88,
+        "f1_score": 0.9362,
+        "support": 25
+      },
+      "software_update": {
+        "precision": 1,
+        "recall": 0.6,
+        "f1_score": 0.75,
+        "support": 25
+      }
+    }
+  },
+  "escalation_detection": {
+    "accuracy": 0.79,
+    "precision": 1,
+    "recall": 0.3115,
+    "f1_score": 0.475,
+    "confusion": {
+      "true_positive": 19,
+      "false_positive": 0,
+      "true_negative": 139,
+      "false_negative": 42
+    }
+  },
+  "confusion_matrix": {
+    "account_security": {
+      "account_security": 11,
+      "airpods_audio": 0,
+      "battery_issue": 0,
+      "billing_subscription": 0,
+      "general_inquiry": 0,
+      "hardware_defect": 14,
+      "icloud_sync": 0,
+      "software_update": 0
+    },
+    "airpods_audio": {
+      "account_security": 0,
+      "airpods_audio": 18,
+      "battery_issue": 4,
+      "billing_subscription": 0,
+      "general_inquiry": 0,
+      "hardware_defect": 3,
+      "icloud_sync": 0,
+      "software_update": 0
+    },
+    "battery_issue": {
+      "account_security": 0,
+      "airpods_audio": 0,
+      "battery_issue": 25,
+      "billing_subscription": 0,
+      "general_inquiry": 0,
+      "hardware_defect": 0,
+      "icloud_sync": 0,
+      "software_update": 0
+    },
+    "billing_subscription": {
+      "account_security": 4,
+      "airpods_audio": 0,
+      "battery_issue": 0,
+      "billing_subscription": 21,
+      "general_inquiry": 0,
+      "hardware_defect": 0,
+      "icloud_sync": 0,
+      "software_update": 0
+    },
+    "general_inquiry": {
+      "account_security": 0,
+      "airpods_audio": 0,
+      "battery_issue": 0,
+      "billing_subscription": 0,
+      "general_inquiry": 18,
+      "hardware_defect": 7,
+      "icloud_sync": 0,
+      "software_update": 0
+    },
+    "hardware_defect": {
+      "account_security": 0,
+      "airpods_audio": 0,
+      "battery_issue": 0,
+      "billing_subscription": 0,
+      "general_inquiry": 0,
+      "hardware_defect": 25,
+      "icloud_sync": 0,
+      "software_update": 0
+    },
+    "icloud_sync": {
+      "account_security": 0,
+      "airpods_audio": 0,
+      "battery_issue": 3,
+      "billing_subscription": 0,
+      "general_inquiry": 0,
+      "hardware_defect": 0,
+      "icloud_sync": 22,
+      "software_update": 0
+    },
+    "software_update": {
+      "account_security": 0,
+      "airpods_audio": 0,
+      "battery_issue": 0,
+      "billing_subscription": 0,
+      "general_inquiry": 0,
+      "hardware_defect": 10,
+      "icloud_sync": 0,
+      "software_update": 15
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "apple-support-agent",
+  "version": "1.0.0",
+  "description": "An intelligent, production-ready AI customer support agent designed to classify incoming customer inquiries (tweets), provide empathetic self-service troubleshooting replies, evaluate urgency/frustration levels, and escalate critical issues to human specialists.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "cli": "node cli.js",
+    "test": "node test/test_agent.js",
+    "eval": "node src/evaluate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bin": {
+    "apple-agent": "./cli.js"
+  }
+}

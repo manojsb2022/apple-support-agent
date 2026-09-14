@@ -1,0 +1,201 @@
+id,text,intent,escalate,urgency
+1,"@AppleSupport Battery dying in 3 hours on my iPhone 15 since updating. Any tips?",battery_issue,true,medium
+2,"@AppleSupport My MacBook Pro M3 battery health dropped rapidly to 15%. Is replacement needed?",battery_issue,false,low
+3,"@AppleSupport Why is my iPhone 13 draining battery fast in sleep mode? Loses 79% overnight.",battery_issue,false,low
+4,"@AppleSupport Apple Watch Ultra overheating while charging and battery percentage drops instead of rising.",battery_issue,false,low
+5,"@AppleSupport Major battery drain on iPad Air 5 after the latest patch! Please roll back or fix.",battery_issue,false,low
+6,"@AppleSupport Battery runs out within 5 hours of normal browsing on iPhone 14 Pro.",battery_issue,false,low
+7,"@AppleSupport My brand new iPad Pro M2 gets burning hot near the camera and battery dies so fast.",battery_issue,false,low
+8,"@AppleSupport Battery dying in 5 hours on my iPhone 15 since updating. Any tips?",battery_issue,true,medium
+9,"@AppleSupport My MacBook Pro M3 battery health dropped rapidly to 79%. Is replacement needed?",battery_issue,false,low
+10,"@AppleSupport Why is my iPhone 13 draining battery fast in sleep mode? Loses 82% overnight.",battery_issue,false,low
+11,"@AppleSupport Apple Watch Ultra overheating while charging and battery percentage drops instead of rising.",battery_issue,false,low
+12,"@AppleSupport Major battery drain on iPad Air 5 after the latest patch! Please roll back or fix.",battery_issue,false,low
+13,"@AppleSupport Battery runs out within 3 hours of normal browsing on iPhone 14 Pro.",battery_issue,false,low
+14,"@AppleSupport My brand new iPad Pro M2 gets burning hot near the camera and battery dies so fast.",battery_issue,false,low
+15,"@AppleSupport Battery dying in 3 hours on my iPhone 15 since updating. Any tips?",battery_issue,true,medium
+16,"@AppleSupport My MacBook Pro M3 battery health dropped rapidly to 82%. Is replacement needed?",battery_issue,false,low
+17,"@AppleSupport Why is my iPhone 13 draining battery fast in sleep mode? Loses 45% overnight.",battery_issue,false,low
+18,"@AppleSupport Apple Watch Ultra overheating while charging and battery percentage drops instead of rising.",battery_issue,false,low
+19,"@AppleSupport Major battery drain on iPad Air 5 after the latest patch! Please roll back or fix.",battery_issue,false,low
+20,"@AppleSupport Battery runs out within 5 hours of normal browsing on iPhone 14 Pro.",battery_issue,false,low
+21,"@AppleSupport My brand new iPad Pro M2 gets burning hot near the camera and battery dies so fast.",battery_issue,false,low
+22,"@AppleSupport Battery dying in 5 hours on my iPhone 15 since updating. Any tips?",battery_issue,true,medium
+23,"@AppleSupport My MacBook Pro M3 battery health dropped rapidly to 45%. Is replacement needed?",battery_issue,false,low
+24,"@AppleSupport Why is my iPhone 13 draining battery fast in sleep mode? Loses 35% overnight.",battery_issue,false,low
+25,"@AppleSupport Apple Watch Ultra overheating while charging and battery percentage drops instead of rising.",battery_issue,false,low
+26,"@AppleSupport I was charged $14.99 for Apple TV+ subscription that I already cancelled.",billing_subscription,true,medium
+27,"@AppleSupport Double charged on my card for Apple One. Where do I request a refund?",billing_subscription,false,low
+28,"@AppleSupport How do I cancel my annual iCloud+ 200GB renewal on my Apple Watch Ultra?",billing_subscription,false,low
+29,"@AppleSupport Unauthorized transaction of $14.99 from APPLE.COM/BILL. Help report fraud!",billing_subscription,true,high
+30,"@AppleSupport App Store charged me $14.99 for in-app purchase I never authorized.",billing_subscription,false,low
+31,"@AppleSupport Can't remove credit card from Apple ID payment methods because of family sharing.",billing_subscription,false,low
+32,"@AppleSupport Where can I view all active subscriptions linked to my Apple ID?",billing_subscription,false,low
+33,"@AppleSupport I was charged $14.99 for iCloud+ 200GB subscription that I already cancelled.",billing_subscription,true,medium
+34,"@AppleSupport Double charged on my card for Apple Music. Where do I request a refund?",billing_subscription,false,low
+35,"@AppleSupport How do I cancel my annual Apple Arcade renewal on my Apple Watch Ultra?",billing_subscription,false,low
+36,"@AppleSupport Unauthorized transaction of $14.99 from APPLE.COM/BILL. Help report fraud!",billing_subscription,true,high
+37,"@AppleSupport App Store charged me $14.99 for in-app purchase I never authorized.",billing_subscription,false,low
+38,"@AppleSupport Can't remove credit card from Apple ID payment methods because of family sharing.",billing_subscription,false,low
+39,"@AppleSupport Where can I view all active subscriptions linked to my Apple ID?",billing_subscription,false,low
+40,"@AppleSupport I was charged $14.99 for Apple Arcade subscription that I already cancelled.",billing_subscription,true,medium
+41,"@AppleSupport Double charged on my card for Apple TV+. Where do I request a refund?",billing_subscription,false,low
+42,"@AppleSupport How do I cancel my annual Apple One renewal on my Apple Watch Ultra?",billing_subscription,false,low
+43,"@AppleSupport Unauthorized transaction of $14.99 from APPLE.COM/BILL. Help report fraud!",billing_subscription,true,high
+44,"@AppleSupport App Store charged me $14.99 for in-app purchase I never authorized.",billing_subscription,false,low
+45,"@AppleSupport Can't remove credit card from Apple ID payment methods because of family sharing.",billing_subscription,false,low
+46,"@AppleSupport Where can I view all active subscriptions linked to my Apple ID?",billing_subscription,false,low
+47,"@AppleSupport I was charged $14.99 for Apple One subscription that I already cancelled.",billing_subscription,true,medium
+48,"@AppleSupport Double charged on my card for iCloud+ 200GB. Where do I request a refund?",billing_subscription,false,low
+49,"@AppleSupport How do I cancel my annual Apple Music renewal on my Apple Watch Ultra?",billing_subscription,false,low
+50,"@AppleSupport Unauthorized transaction of $14.99 from APPLE.COM/BILL. Help report fraud!",billing_subscription,true,high
+51,"@AppleSupport Photos not uploading to iCloud from iPhone 13. Shows syncing paused.",icloud_sync,true,medium
+52,"@AppleSupport Notes and contacts missing after enabling iCloud backup on my Apple Watch Ultra.",icloud_sync,false,low
+53,"@AppleSupport iCloud drive says storage is full even though I deleted 30GB of old backups.",icloud_sync,false,low
+54,"@AppleSupport Calendar events not syncing between my iPhone 14 Pro and Mac.",icloud_sync,false,low
+55,"@AppleSupport Messages in iCloud stuck downloading messages for 2 days now.",icloud_sync,false,low
+56,"@AppleSupport Can't restore backup from iCloud to new iPhone 15, fails with network error.",icloud_sync,false,low
+57,"@AppleSupport Shared iCloud Photo Album invite not appearing on my recipient device.",icloud_sync,false,low
+58,"@AppleSupport Photos not uploading to iCloud from iPhone 13. Shows syncing paused.",icloud_sync,true,medium
+59,"@AppleSupport Notes and contacts missing after enabling iCloud backup on my Apple Watch Ultra.",icloud_sync,false,low
+60,"@AppleSupport iCloud drive says storage is full even though I deleted 15GB of old backups.",icloud_sync,false,low
+61,"@AppleSupport Calendar events not syncing between my iPhone 14 Pro and Mac.",icloud_sync,false,low
+62,"@AppleSupport Messages in iCloud stuck downloading messages for 2 days now.",icloud_sync,false,low
+63,"@AppleSupport Can't restore backup from iCloud to new iPhone 15, fails with network error.",icloud_sync,false,low
+64,"@AppleSupport Shared iCloud Photo Album invite not appearing on my recipient device.",icloud_sync,false,low
+65,"@AppleSupport Photos not uploading to iCloud from iPhone 13. Shows syncing paused.",icloud_sync,true,medium
+66,"@AppleSupport Notes and contacts missing after enabling iCloud backup on my Apple Watch Ultra.",icloud_sync,false,low
+67,"@AppleSupport iCloud drive says storage is full even though I deleted 50GB of old backups.",icloud_sync,false,low
+68,"@AppleSupport Calendar events not syncing between my iPhone 14 Pro and Mac.",icloud_sync,false,low
+69,"@AppleSupport Messages in iCloud stuck downloading messages for 2 days now.",icloud_sync,false,low
+70,"@AppleSupport Can't restore backup from iCloud to new iPhone 15, fails with network error.",icloud_sync,false,low
+71,"@AppleSupport Shared iCloud Photo Album invite not appearing on my recipient device.",icloud_sync,false,low
+72,"@AppleSupport Photos not uploading to iCloud from iPhone 13. Shows syncing paused.",icloud_sync,true,medium
+73,"@AppleSupport Notes and contacts missing after enabling iCloud backup on my Apple Watch Ultra.",icloud_sync,false,low
+74,"@AppleSupport iCloud drive says storage is full even though I deleted 30GB of old backups.",icloud_sync,false,low
+75,"@AppleSupport Calendar events not syncing between my iPhone 14 Pro and Mac.",icloud_sync,false,low
+76,"@AppleSupport Screen on my Apple Watch Ultra has green vertical line across display.",hardware_defect,true,medium
+77,"@AppleSupport Face ID stopped working on iPad Air 5, says TrueDepth camera issue detected.",hardware_defect,false,low
+78,"@AppleSupport Volume button stuck on iPhone 14 Pro and doesn't click anymore.",hardware_defect,false,low
+79,"@AppleSupport Microphone doesn't pick up voice on phone calls on iPad Pro M2.",hardware_defect,false,low
+80,"@AppleSupport Haptic engine on iPhone 15 makes strange buzzing vibration sound.",hardware_defect,false,low
+81,"@AppleSupport Display flickers constantly when brightness is lowered on MacBook Pro M3.",hardware_defect,false,low
+82,"@AppleSupport Charging port loose on iPhone 13, cable keeps falling out.",hardware_defect,false,low
+83,"@AppleSupport Screen on my Apple Watch Ultra has green vertical line across display.",hardware_defect,true,medium
+84,"@AppleSupport Face ID stopped working on iPad Air 5, says TrueDepth camera issue detected.",hardware_defect,false,low
+85,"@AppleSupport Volume button stuck on iPhone 14 Pro and doesn't click anymore.",hardware_defect,false,low
+86,"@AppleSupport Microphone doesn't pick up voice on phone calls on iPad Pro M2.",hardware_defect,false,low
+87,"@AppleSupport Haptic engine on iPhone 15 makes strange buzzing vibration sound.",hardware_defect,false,low
+88,"@AppleSupport Display flickers constantly when brightness is lowered on MacBook Pro M3.",hardware_defect,false,low
+89,"@AppleSupport Charging port loose on iPhone 13, cable keeps falling out.",hardware_defect,false,low
+90,"@AppleSupport Screen on my Apple Watch Ultra has green vertical line across display.",hardware_defect,true,medium
+91,"@AppleSupport Face ID stopped working on iPad Air 5, says TrueDepth camera issue detected.",hardware_defect,false,low
+92,"@AppleSupport Volume button stuck on iPhone 14 Pro and doesn't click anymore.",hardware_defect,false,low
+93,"@AppleSupport Microphone doesn't pick up voice on phone calls on iPad Pro M2.",hardware_defect,false,low
+94,"@AppleSupport Haptic engine on iPhone 15 makes strange buzzing vibration sound.",hardware_defect,false,low
+95,"@AppleSupport Display flickers constantly when brightness is lowered on MacBook Pro M3.",hardware_defect,false,low
+96,"@AppleSupport Charging port loose on iPhone 13, cable keeps falling out.",hardware_defect,false,low
+97,"@AppleSupport Screen on my Apple Watch Ultra has green vertical line across display.",hardware_defect,true,medium
+98,"@AppleSupport Face ID stopped working on iPad Air 5, says TrueDepth camera issue detected.",hardware_defect,false,low
+99,"@AppleSupport Volume button stuck on iPhone 14 Pro and doesn't click anymore.",hardware_defect,false,low
+100,"@AppleSupport Microphone doesn't pick up voice on phone calls on iPad Pro M2.",hardware_defect,false,low
+101,"@AppleSupport Update to latest iOS stuck at 'Verifying Update' on iPad Air 5.",software_update,true,medium
+102,"@AppleSupport Error code 4013 when trying to restore iPhone 14 Pro via Finder on Mac.",software_update,false,low
+103,"@AppleSupport iPhone stuck in boot loop showing Apple logo after system update.",software_update,true,medium
+104,"@AppleSupport Unable to check for update error on iPhone 15. Wi-Fi is working fine.",software_update,false,low
+105,"@AppleSupport Downloaded update file is corrupted, how do I delete and redownload?",software_update,false,low
+106,"@AppleSupport After software update, Wi-Fi toggle is greyed out and cannot be turned on.",software_update,false,low
+107,"@AppleSupport Apps keep crashing immediately upon launching after updating Apple Watch Ultra.",software_update,false,low
+108,"@AppleSupport Update to latest iOS stuck at 'Verifying Update' on iPad Air 5.",software_update,true,medium
+109,"@AppleSupport Error code 4013 when trying to restore iPhone 14 Pro via Finder on Mac.",software_update,false,low
+110,"@AppleSupport iPhone stuck in boot loop showing Apple logo after system update.",software_update,true,medium
+111,"@AppleSupport Unable to check for update error on iPhone 15. Wi-Fi is working fine.",software_update,false,low
+112,"@AppleSupport Downloaded update file is corrupted, how do I delete and redownload?",software_update,false,low
+113,"@AppleSupport After software update, Wi-Fi toggle is greyed out and cannot be turned on.",software_update,false,low
+114,"@AppleSupport Apps keep crashing immediately upon launching after updating Apple Watch Ultra.",software_update,false,low
+115,"@AppleSupport Update to latest iOS stuck at 'Verifying Update' on iPad Air 5.",software_update,true,medium
+116,"@AppleSupport Error code 4013 when trying to restore iPhone 14 Pro via Finder on Mac.",software_update,false,low
+117,"@AppleSupport iPhone stuck in boot loop showing Apple logo after system update.",software_update,true,medium
+118,"@AppleSupport Unable to check for update error on iPhone 15. Wi-Fi is working fine.",software_update,false,low
+119,"@AppleSupport Downloaded update file is corrupted, how do I delete and redownload?",software_update,false,low
+120,"@AppleSupport After software update, Wi-Fi toggle is greyed out and cannot be turned on.",software_update,false,low
+121,"@AppleSupport Apps keep crashing immediately upon launching after updating Apple Watch Ultra.",software_update,false,low
+122,"@AppleSupport Update to latest iOS stuck at 'Verifying Update' on iPad Air 5.",software_update,true,medium
+123,"@AppleSupport Error code 4013 when trying to restore iPhone 14 Pro via Finder on Mac.",software_update,false,low
+124,"@AppleSupport iPhone stuck in boot loop showing Apple logo after system update.",software_update,true,medium
+125,"@AppleSupport Unable to check for update error on iPhone 15. Wi-Fi is working fine.",software_update,false,low
+126,"@AppleSupport Right AirPod has buzzing static sound when active noise cancellation is on.",airpods_audio,true,medium
+127,"@AppleSupport Left AirPod won't connect or show battery percentage in popup widget.",airpods_audio,false,low
+128,"@AppleSupport AirPods Pro case stopped charging wirelessly on MagSafe puck.",airpods_audio,false,low
+129,"@AppleSupport Microphone volume is extremely low during FaceTime calls using AirPods.",airpods_audio,false,low
+130,"@AppleSupport Audio cuts out intermittently every few seconds while listening on AirPods.",airpods_audio,false,low
+131,"@AppleSupport AirPods disconnect immediately when receiving an incoming phone call.",airpods_audio,false,low
+132,"@AppleSupport One earbud is noticeably quieter than the other even after cleaning mesh.",airpods_audio,false,low
+133,"@AppleSupport Right AirPod has buzzing static sound when active noise cancellation is on.",airpods_audio,true,medium
+134,"@AppleSupport Left AirPod won't connect or show battery percentage in popup widget.",airpods_audio,false,low
+135,"@AppleSupport AirPods Pro case stopped charging wirelessly on MagSafe puck.",airpods_audio,false,low
+136,"@AppleSupport Microphone volume is extremely low during FaceTime calls using AirPods.",airpods_audio,false,low
+137,"@AppleSupport Audio cuts out intermittently every few seconds while listening on AirPods.",airpods_audio,false,low
+138,"@AppleSupport AirPods disconnect immediately when receiving an incoming phone call.",airpods_audio,false,low
+139,"@AppleSupport One earbud is noticeably quieter than the other even after cleaning mesh.",airpods_audio,false,low
+140,"@AppleSupport Right AirPod has buzzing static sound when active noise cancellation is on.",airpods_audio,true,medium
+141,"@AppleSupport Left AirPod won't connect or show battery percentage in popup widget.",airpods_audio,false,low
+142,"@AppleSupport AirPods Pro case stopped charging wirelessly on MagSafe puck.",airpods_audio,false,low
+143,"@AppleSupport Microphone volume is extremely low during FaceTime calls using AirPods.",airpods_audio,false,low
+144,"@AppleSupport Audio cuts out intermittently every few seconds while listening on AirPods.",airpods_audio,false,low
+145,"@AppleSupport AirPods disconnect immediately when receiving an incoming phone call.",airpods_audio,false,low
+146,"@AppleSupport One earbud is noticeably quieter than the other even after cleaning mesh.",airpods_audio,false,low
+147,"@AppleSupport Right AirPod has buzzing static sound when active noise cancellation is on.",airpods_audio,true,medium
+148,"@AppleSupport Left AirPod won't connect or show battery percentage in popup widget.",airpods_audio,false,low
+149,"@AppleSupport AirPods Pro case stopped charging wirelessly on MagSafe puck.",airpods_audio,false,low
+150,"@AppleSupport Microphone volume is extremely low during FaceTime calls using AirPods.",airpods_audio,false,low
+151,"@AppleSupport Someone changed my Apple ID email and password! I am locked out! URGENT!",account_security,true,high
+152,"@AppleSupport Apple ID locked for security reasons. Not receiving two-factor verification SMS.",account_security,true,high
+153,"@AppleSupport Lost my phone and Find My was disabled by thief. Please secure my account!",account_security,true,high
+154,"@AppleSupport Received phishing email pretending to be Apple receipt, need security check.",account_security,true,high
+155,"@AppleSupport Cannot reset Apple ID password because trusted phone number was disconnected.",account_security,true,high
+156,"@AppleSupport Unknown device logged into my Apple ID from another country. Help!",account_security,true,high
+157,"@AppleSupport Two-factor authentication code sent to unknown device number.",account_security,true,high
+158,"@AppleSupport Someone changed my Apple ID email and password! I am locked out! URGENT!",account_security,true,high
+159,"@AppleSupport Apple ID locked for security reasons. Not receiving two-factor verification SMS.",account_security,true,high
+160,"@AppleSupport Lost my phone and Find My was disabled by thief. Please secure my account!",account_security,true,high
+161,"@AppleSupport Received phishing email pretending to be Apple receipt, need security check.",account_security,true,high
+162,"@AppleSupport Cannot reset Apple ID password because trusted phone number was disconnected.",account_security,true,high
+163,"@AppleSupport Unknown device logged into my Apple ID from another country. Help!",account_security,true,high
+164,"@AppleSupport Two-factor authentication code sent to unknown device number.",account_security,true,high
+165,"@AppleSupport Someone changed my Apple ID email and password! I am locked out! URGENT!",account_security,true,high
+166,"@AppleSupport Apple ID locked for security reasons. Not receiving two-factor verification SMS.",account_security,true,high
+167,"@AppleSupport Lost my phone and Find My was disabled by thief. Please secure my account!",account_security,true,high
+168,"@AppleSupport Received phishing email pretending to be Apple receipt, need security check.",account_security,true,high
+169,"@AppleSupport Cannot reset Apple ID password because trusted phone number was disconnected.",account_security,true,high
+170,"@AppleSupport Unknown device logged into my Apple ID from another country. Help!",account_security,true,high
+171,"@AppleSupport Two-factor authentication code sent to unknown device number.",account_security,true,high
+172,"@AppleSupport Someone changed my Apple ID email and password! I am locked out! URGENT!",account_security,true,high
+173,"@AppleSupport Apple ID locked for security reasons. Not receiving two-factor verification SMS.",account_security,true,high
+174,"@AppleSupport Lost my phone and Find My was disabled by thief. Please secure my account!",account_security,true,high
+175,"@AppleSupport Received phishing email pretending to be Apple receipt, need security check.",account_security,true,high
+176,"@AppleSupport What is trade-in value for iPhone 15 in good condition?",general_inquiry,true,medium
+177,"@AppleSupport How do I transfer eSIM from older iPhone to new MacBook Pro M3?",general_inquiry,false,low
+178,"@AppleSupport Can I schedule an appointment at Apple Genius Bar without AppleCare?",general_inquiry,false,low
+179,"@AppleSupport What is the warranty period for refurbished Apple Watch Ultra bought from Apple Store?",general_inquiry,false,low
+180,"@AppleSupport How to set up Family Sharing for Apple One plan across 5 members?",general_inquiry,false,low
+181,"@AppleSupport Does Apple Store accept old cables and chargers for electronics recycling?",general_inquiry,false,low
+182,"@AppleSupport How do I track delivery status for order placed on Apple online store?",general_inquiry,false,low
+183,"@AppleSupport What is trade-in value for iPhone 15 in good condition?",general_inquiry,true,medium
+184,"@AppleSupport How do I transfer eSIM from older iPhone to new MacBook Pro M3?",general_inquiry,false,low
+185,"@AppleSupport Can I schedule an appointment at Apple Genius Bar without AppleCare?",general_inquiry,false,low
+186,"@AppleSupport What is the warranty period for refurbished Apple Watch Ultra bought from Apple Store?",general_inquiry,false,low
+187,"@AppleSupport How to set up Family Sharing for Apple One plan across 5 members?",general_inquiry,false,low
+188,"@AppleSupport Does Apple Store accept old cables and chargers for electronics recycling?",general_inquiry,false,low
+189,"@AppleSupport How do I track delivery status for order placed on Apple online store?",general_inquiry,false,low
+190,"@AppleSupport What is trade-in value for iPhone 15 in good condition?",general_inquiry,true,medium
+191,"@AppleSupport How do I transfer eSIM from older iPhone to new MacBook Pro M3?",general_inquiry,false,low
+192,"@AppleSupport Can I schedule an appointment at Apple Genius Bar without AppleCare?",general_inquiry,false,low
+193,"@AppleSupport What is the warranty period for refurbished Apple Watch Ultra bought from Apple Store?",general_inquiry,false,low
+194,"@AppleSupport How to set up Family Sharing for Apple One plan across 5 members?",general_inquiry,false,low
+195,"@AppleSupport Does Apple Store accept old cables and chargers for electronics recycling?",general_inquiry,false,low
+196,"@AppleSupport How do I track delivery status for order placed on Apple online store?",general_inquiry,false,low
+197,"@AppleSupport What is trade-in value for iPhone 15 in good condition?",general_inquiry,true,medium
+198,"@AppleSupport How do I transfer eSIM from older iPhone to new MacBook Pro M3?",general_inquiry,false,low
+199,"@AppleSupport Can I schedule an appointment at Apple Genius Bar without AppleCare?",general_inquiry,false,low
+200,"@AppleSupport What is the warranty period for refurbished Apple Watch Ultra bought from Apple Store?",general_inquiry,false,low
