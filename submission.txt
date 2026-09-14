@@ -1,0 +1,44 @@
+Project: Apple Support Agent
+Candidate / Developer: Manoj SB
+Repository: https://github.com/manoj-sb/apple-support-agent
+
+---
+Submission Email to Hiver:
+
+Subject: Submission: Apple Support Agent Assessment - Manoj SB
+
+Dear Hiver Hiring Team,
+
+I am pleased to submit my completed solution for the Apple Support Agent assessment.
+
+GitHub Repository:
+https://github.com/manoj-sb/apple-support-agent
+
+Key Deliverables & Highlights:
+1. Data & Benchmark:
+   - Hand-labelled golden evaluation set of 200 examples across 8 high-impact customer intents (25 examples each).
+   - Subsampled raw inbound customer support tweets in data/raw/.
+2. Notebooks & Pipelines:
+   - notebooks/intent_baseline.ipynb (TF-IDF + Logistic Regression baseline and error analysis)
+   - notebooks/intent_model.ipynb (full pipeline integration, evaluation metrics, and confusion matrix heatmap)
+3. Production Modules:
+   - src/preprocess.py: Social media cleaning, mention/URL stripping, contraction normalization
+   - src/classifier.py: Intent classification pipeline with dual model/heuristic support
+   - src/reply_generator.py: Apple-styled empathetic self-serve responses with official Apple support links
+   - src/escalation.py: Multi-factor risk engine (security, financial threshold, repeat contacts, frustration)
+   - src/evaluate.py: Benchmarking suite generating metrics.json and confusion matrix
+4. Results & Deep Dives:
+   - results/metrics.json: Intent Accuracy 77.50%, Macro F1 78.70%, Escalation Accuracy 79.00%
+   - results/confusion_matrix.png: 8x8 classification heatmap
+   - results/failure_analysis.md: Detailed root-cause breakdown of 5 specific misclassifications with mitigations
+   - results/misleading_number.md: Critical assessment of headline accuracy vs. escalation recall in production
+   - results/decision_log.md: 10 key architectural and modeling decisions documented
+5. Usability & Polish:
+   - Interactive CLI (cli.js) and Live Web Dashboard (server.js on localhost:3000)
+   - 100% passing automated test suite (npm test)
+   - Complete end-to-end execution in <15 minutes
+
+Thank you for the opportunity, and I look forward to your feedback.
+
+Best regards,
+Manoj SB

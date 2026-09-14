@@ -4,6 +4,88 @@ An intelligent, production-ready AI customer support agent designed to classify 
 
 ---
 
+## 📚 Dataset Citation
+
+This project utilizes real-world customer support patterns and subsamples derived from:
+- **Dataset Title**: Customer Support on Twitter — BERD Platform
+- **Authors**: Axelbrooke, Stuart (2017)
+- **Official Citation & URL**: [https://berd-platform.de/records/4c9xb-k5q03](https://berd-platform.de/records/4c9xb-k5q03)
+- **Description**: A public dataset of 3+ million tweets and replies across top brands on Twitter, capturing authentic customer phrasing, frustration, and technical support interactions.
+
+---
+
+## ⚡ Run Instructions
+
+The entire end-to-end pipeline executes in **under 15 minutes**:
+
+### 1. Clone Repository & Setup
+```bash
+git clone https://github.com/manoj-sb/apple-support-agent.git
+cd apple-support-agent
+```
+
+### 2. Install Requirements
+```bash
+pip install -r requirements.txt
+# or for Node runtime tools
+npm install
+```
+
+### 3. Run Notebooks
+- Launch Jupyter:
+  ```bash
+  jupyter notebook notebooks/intent_model.ipynb
+  ```
+- Or run the baseline notebook:
+  ```bash
+  jupyter notebook notebooks/intent_baseline.ipynb
+  ```
+
+### 4. Run Automated Evaluation & Tests
+```bash
+# Run Python evaluation pipeline (generates metrics.json and confusion matrix)
+python -m src.evaluate
+
+# Run automated test suite
+npm test
+```
+
+### 5. Interactive CLI & Live Web Dashboard
+```bash
+# Interactive CLI mode:
+node cli.js
+
+# Launch Web Dashboard at http://localhost:3000:
+npm start
+```
+
+---
+
+## 📊 Summary of Results
+
+Evaluated against the curated 200-sample hand-labelled `golden_set.csv`:
+
+| Metric | Score |
+| :--- | :--- |
+| **Intent Classification Accuracy** | **77.50%** |
+| **Intent Macro Precision** | **86.73%** |
+| **Intent Macro Recall** | **77.50%** |
+| **Intent Macro F1 Score** | **78.70%** |
+| **Escalation Detection Accuracy** | **79.00%** |
+| **Escalation Precision** | **100.00%** |
+
+Full metrics breakdown by class is stored in [`results/metrics.json`](results/metrics.json) and visualized in [`results/confusion_matrix.png`](results/confusion_matrix.png).
+
+---
+
+## 🔍 Links to Optional Polish & Deep Dives
+
+- **[Failure Analysis](results/failure_analysis.md)**: In-depth analysis of 5 real misclassifications, detailing lexical overlap, root causes, and architectural mitigations.
+- **[The Misleading Number](results/misleading_number.md)**: Critical evaluation of why headline accuracy (77.5%) is deceptive in production support environments, emphasizing cost-asymmetry in false negatives and the necessity of high recall for escalation.
+- **[Decision Log](results/decision_log.md)**: Comprehensive log of 10 architectural, linguistic, and engineering decisions made during development.
+
+---
+
 ## 📁 Repository Structure
 
 ```text
@@ -18,92 +100,27 @@ apple-support-agent/
 │   ├── intent_model.ipynb            # Advanced model evaluation & confusion matrix
 │
 │── src/
+│   ├── __init__.py
 │   ├── preprocess.py                 # Text cleaning, normalization, Twitter handle removal
 │   ├── classifier.py                 # Multi-class intent classification engine
 │   ├── reply_generator.py            # Apple-styled conversational response generator
 │   ├── escalation.py                 # Urgency, sentiment, and risk escalation rules
 │   ├── evaluate.py                   # Benchmark & evaluation pipeline
 │
+│── test/
+│   └── test_agent.js                 # Automated unit tests (100% passing)
+│
 │── results/
 │   ├── metrics.json                  # Accuracy, macro F1, and class breakdown
 │   ├── confusion_matrix.png          # Visual heatmap of classification results
+│   ├── failure_analysis.md           # 3–5 misclassifications explained
+│   ├── misleading_number.md          # Headline metric + limitations analysis
+│   ├── decision_log.md               # 10 architecture & modeling choices documented
 │
+│── cli.js                            # Interactive command-line agent tool
+│── server.js                         # Web UI dashboard with live inference
+│── package.json                      # Scripts & project metadata
 │── requirements.txt                  # Python dependencies
-│── README.md                         # Architecture & quickstart guide
-```
-
----
-
-## 🎯 Intents Covered
-
-The classifier recognizes 8 distinct customer inquiry categories:
-
-| Intent | Description | Example Query |
-| :--- | :--- | :--- |
-| `battery_issue` | Battery drain, overheating, charging problems | *"Battery dying in 2 hours on my iPhone 14 Pro since updating."* |
-| `billing_subscription` | Charges, refunds, renewals, payment methods | *"I was charged $9.99 twice for Apple Music subscription."* |
-| `icloud_sync` | Photos, drive, notes, sync pauses, storage | *"Photos not uploading to iCloud from my iPad Air 5."* |
-| `hardware_defect` | Screens, buttons, microphone, physical damage | *"Screen on my iPhone 14 Pro has green vertical lines."* |
-| `software_update` | Stuck updates, boot loops, error codes | *"Update stuck at 'Verifying Update' on iPhone 12."* |
-| `airpods_audio` | ANC, crackling, microphone, pairing, charging case | *"Right AirPod Pro has buzzing static sound."* |
-| `account_security` | Stolen devices, locked IDs, unauthorized access | *"Someone changed my Apple ID email and password! URGENT!"* |
-| `general_inquiry` | Trade-in values, eSIM transfer, store appointments | *"How do I transfer eSIM from older iPhone to new iPhone 15?"* |
-
----
-
-## ⚡ Escalation Engine
-
-Customer tickets are dynamically scored and flagged for human intervention (`escalate = True`) based on:
-1. **Security & Identity Hazards:** Locked Apple IDs, phishing reports, remote unauthorized charges, or stolen hardware.
-2. **Device Safety:** Device overheating, battery swelling, or boot loop scenarios.
-3. **Sentiment & Frustration:** Detection of angry phrasing, repeated failed contacts, or high-value charge discrepancies.
-
----
-
-## 📊 Benchmark Results
-
-Evaluated on the 200 hand-labelled `golden_set.csv`:
-
-- **Intent Classification Accuracy:** `77.50%`
-- **Macro Precision:** `86.73%`
-- **Macro Recall:** `77.50%`
-- **Macro F1 Score:** `78.70%`
-- **Escalation Detection Accuracy:** `79.00%`
-
-*Detailed per-class breakdown and confusion matrix available in `results/metrics.json` and `results/confusion_matrix.png`.*
-
----
-
-## 🚀 Quickstart & Usage
-
-### 1. Installation
-```bash
-cd apple-support-agent
-pip install -r requirements.txt
-```
-
-### 2. Preprocess & Test Classification
-```python
-from src.preprocess import clean_tweet
-from src.classifier import IntentClassifier
-from src.escalation import EscalationEngine
-from src.reply_generator import ReplyGenerator
-
-text = "@AppleSupport I lost my iPhone at the airport, please blacklist IMEI immediately!"
-cleaned = clean_tweet(text)
-
-classifier = IntentClassifier()
-intent = classifier.predict_one(text)
-
-escalation = EscalationEngine().evaluate(text, intent["intent"])
-reply = ReplyGenerator().generate_reply(text, intent["intent"], escalation)
-
-print("Intent:", intent["intent"])
-print("Escalation:", escalation["escalate"], f"({escalation['urgency']} urgency)")
-print("Response:", reply)
-```
-
-### 3. Run Benchmark Pipeline
-```bash
-python -m src.evaluate
+│── README.md                         # Complete documentation
+│── submission.txt                    # GitHub link + email to Hiver
 ```
