@@ -31,7 +31,7 @@ The entire end-to-end pipeline executes in **under 15 minutes**:
 
 ### 1. Clone Repository & Setup
 ```bash
-git clone https://github.com/manoj-sb/apple-support-agent.git
+git clone https://github.com/manojsb2022/apple-support-agent.git
 cd apple-support-agent
 ```
 

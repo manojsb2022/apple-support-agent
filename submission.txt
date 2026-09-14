@@ -1,6 +1,6 @@
 Project: Apple Support Agent
 Candidate / Developer: Manoj SB
-Repository: https://github.com/manoj-sb/apple-support-agent\nLive Vercel Demo: https://apple-support-agent.vercel.app
+Repository: https://github.com/manojsb2022/apple-support-agent\nLive Vercel Demo: https://apple-support-agent.vercel.app
 
 ---
 Submission Email to Hiver:
@@ -12,7 +12,7 @@ Dear Hiver Hiring Team,
 I am pleased to submit my completed solution for the Apple Support Agent assessment.
 
 GitHub Repository:
-https://github.com/manoj-sb/apple-support-agent
+https://github.com/manojsb2022/apple-support-agent
 
 Key Deliverables & Highlights:
 1. Data & Benchmark:
