@@ -11,7 +11,7 @@ An intelligent, production-ready AI customer support agent designed to classify 
 
 - **Screenshot path**: [`results/interface_demo.png`](results/interface_demo.png)
 - **Live Demo (Local)**: [http://localhost:3000](http://localhost:3000)
-- **(Optional) Cloud Deployment**: Ready for 1-click deployment on [Vercel](https://vercel.com) or Render via `server.js` / `npm start`.
+- **Live Vercel Demo**: [https://apple-support-agent.vercel.app](https://apple-support-agent.vercel.app)
 
 ---
 
